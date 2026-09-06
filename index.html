@@ -345,6 +345,12 @@
   .buy-item strong{display:block;font-weight:700;font-size:.94rem;margin-bottom:1px}
   .buy-item small{display:block;color:rgba(254,248,232,.6);font-size:.8rem}
   .buy-item .go{flex:none;color:var(--terra);font-size:1.05rem;line-height:1}
+  .buy-item-main{
+    border-color:var(--terra);background:rgba(222,147,106,.13);
+    padding:17px 17px;
+  }
+  .buy-item-main:hover{background:rgba(222,147,106,.2)}
+  .buy-item-main strong{font-size:1.02rem}
 </style>
 </head>
 <body>
@@ -594,28 +600,13 @@
     <button class="modal-close" type="button" onclick="closeJalovi()" aria-label="Fechar">&times;</button>
     <span class="eyebrow">Já disponível</span>
     <h3 id="jaloviTitle">Onde encontrar o Momento Pickleball</h3>
-    <p>O livro está disponível nas principais livrarias online, com envio para todo o Brasil, em ebook e também presencialmente em Bauru.</p>
+    <p>Os exemplares impressos saem direto comigo, pelo WhatsApp, autografados. O livro também está em ebook, e presencialmente em Bauru.</p>
 
     <div class="buy-group">
-      <p class="buy-label">Impresso, online</p>
-      <a class="buy-item" href="https://www.amazon.com.br/dp/6502149286" target="_blank" rel="noopener">
-        <span class="ic">🛒</span>
-        <span class="txt"><strong>Amazon</strong><small>Entrega para todo o Brasil</small></span>
-        <span class="go" aria-hidden="true">→</span>
-      </a>
-      <a class="buy-item" href="https://loja.umlivro.com.br/momento-pickleball--a-quadra-menor--o-jogo-consciente-e-a-formacao-de-pessoas-8493436/p" target="_blank" rel="noopener">
-        <span class="ic">📚</span>
-        <span class="txt"><strong>UmLivro</strong><small>Loja online da distribuidora</small></span>
-        <span class="go" aria-hidden="true">→</span>
-      </a>
-      <a class="buy-item" href="https://www.mercadolivre.com.br/up/MLBU4574699054" target="_blank" rel="noopener">
-        <span class="ic">🏷️</span>
-        <span class="txt"><strong>Mercado Livre</strong><small>Com frete e pagamento do site</small></span>
-        <span class="go" aria-hidden="true">→</span>
-      </a>
-      <a class="buy-item" href="https://www.emporiocultural.com.br/loja/produto.php?loja=824711&IdProd=8901&iniSession=1&hash=585252135" target="_blank" rel="noopener">
-        <span class="ic">🏬</span>
-        <span class="txt"><strong>Empório Cultural</strong><small>Pedido direto pelo site da loja</small></span>
+      <p class="buy-label">Impresso, direto com a Marcia</p>
+      <a class="buy-item buy-item-main wa" href="#" data-msg="Oi Marcia! Vim pela sua página e quero comprar o Momento Pickleball.">
+        <span class="ic">💬</span>
+        <span class="txt"><strong>Comprar pelo WhatsApp</strong><small>Exemplar autografado, falando direto comigo</small></span>
         <span class="go" aria-hidden="true">→</span>
       </a>
     </div>
